@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+  html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+   }
+   body{
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    position: relative;
+   }
+  #navbar{
+    width: 15rem;
+    padding-left: 0;
+    background-color: rgb(9, 9, 53);
+  }
+
+
+ul{
+   width: auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 100vh;
+    margin-top: 0;
+    margin-right: -2.6rem;
+    
+    
+}
+ul li{
+  width: 10rem;
+  margin-top: 1rem;
+  border-bottom:  2px solid rgb(104, 100, 100);
+  color: white;
+  
+}
+.nav-link{
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  color: whitesmoke;
+}
+
+h1{
+    font-size: 2rem;
+    color: aliceblue;
+    margin-right: 0.3rem;
+}
+h3, h2{
+  font-size: 1rem;
+}
+#main-doc{
+  margin-right: 1rem;
+}
+@media screen and (max-width:1080px) {
+ h1{
+  font-size: 1.5rem;
+  
+  border-bottom: 2px solid rgb(79, 72, 72);
+
+ }
+ body{
+  display: flex;
+  flex-direction: column;
+ }
+ ul{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  border-left: none;
+  width: 100%;
+  color: white;
+ }
+ ul li{
+  border-bottom: none;
+ }
+ #navbar{
+    width: 100%;
+    
+    
+  }
+  h3{
+    font-size: 1rem;
+  }
+ .nav-link{
+  text-decoration: none;
+ }
+    
+}
+@media screen and (max-width:932px){
+  body{
+    display: flex;
+    flex-direction: column;
+   }
+   #navbar{
+    width: 26.8rem;
+    
+  }
+   ul{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border-left: none;
+    width: 26.8rem;
+    height: 100%;
+    color: white;
+   }
+   ul li{
+    width: 26.8rem;
+    text-align: center;
+   
+    border-bottom:  2px solid rgb(104, 100, 100);
+   }
+   .main-section{
+    width: 26.3rem;
+   }
+   #main-doc{
+    margin-top: 2rem;
+   }
+   ol li{
+    font-size: 0.7rem;
+   }
+   h1{
+    font-size: 1rem;
+    border-top: none;
+    text-align: center;
+   }
+   h2, h3{
+    font-size: 1rem;
+    font-weight: bold;
+   }
+   p{
+    font-size: 0.5rem;
+    width: 20rem;margin-right: 2rem;
+
+   }
+   
+
+
+}
